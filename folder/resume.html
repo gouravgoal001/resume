@@ -1,0 +1,302 @@
+<html>
+
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link href="resume.css" rel="stylesheet" type="text/css"> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+
+    $(document).ready(function () {
+      $("#hide").click(function () {
+        $("p").hide();
+      });
+      $("#show").click(function () {
+        $("p").show();
+      });
+    });
+  </script>
+
+
+
+
+</head>
+
+<body>
+  <style>
+    body {
+      background-color: black;
+      text-align: center;
+      color: grey;
+      font-size: 1rem;
+    }
+  </style>
+
+  <h1 style="background-color:#131313;color:darkmagenta;">Resume</h1>
+
+  <a href="#test4" input class="button button1" type="button" value="Input">Education</a>
+  <a href="#test5" input class="button button1" type="submit" value="Submit">Experience</a>
+  <a href="#test6" input class="button button1" type="reset" value="Reset">Skills</a>
+
+
+  <h2 style="background-color: #131313 ;color: tomato;">Personal Details</h2>
+  <p>
+    <hr>
+
+
+
+    <img id="demo" src="GOURAV_GOYAL.JPG" class="img-rounded--" alt="Gourav" width="100" height="100">
+    <button class="button button2"
+      onclick="document.getElementById('demo').style='width:500;height:500 ;background-color;'">View Full</button>
+
+
+    <br>
+
+
+<div id="demodog1" class="Details"></div>
+
+<div id="demodog2"></div>
+    
+<!-- 
+    Phone Number:- 7988547703 <a class=" button button1" href="tel:798-854-7703" style="padding:1px;;">
+      Click to Call <span class="glyphicon glyphicon-earphone" style="padding-left:1px; padding-right:1px;"></span>
+    </a> <br>
+    Email Address:- gourav786.gsv@gmail.com <a href="mailto: gourav786.sgv@gmail.com" class="button button1"
+      type="buttons" style="padding:0.5px;">Send Mail </a> <br>
+    Linkedin Profile:- @gouravgoyalpiet <a href="https://www.linkedin.com/in/gouravgoyalpiet/" class="button button1 "
+      type="buttons" style="padding:1px;background-image:;">VISIT PROFILE </a> <br> -->
+
+    <hr>
+
+  <div id="test4"></div>
+  <h2 style="background-color:#131313;color: tomato ;">Education Details </h2>
+  <hr>
+  Panipat Institute of Engineering and Technology <a href="https://www.piet.co.in/" input class="btn btn-primary"
+    type="button" style="padding: 1px;background-color: rgb(196, 55, 55);">PIET</a> <br>
+  G.T. Road Smalkha, Panipat <br>
+  Kurukshetra University <br>
+  BTech. Information Technology <br>
+  Session <div id="demodog3"></div>
+  <br>
+  <hr>
+  <p>
+    I B (L) Public School <br>
+    G.T. Road Panipat <br>
+    CBSE Board <br>
+    12th PCM <br>
+    83%
+  </p>
+  <button id="hide">Show Less</button>
+  <button id="show">Show More</button>
+  <hr>
+
+  <div id="test5"></div>
+  <h2 id="demodog4" style="background-color:#131313;color: tomato;"> Experience </h2>
+  <hr>Intern at MENTORIF
+  <br> <a href="https://www.mentorif.com/" type="text">(WWW.MENTORIF.COM)</a>
+  <hr>
+
+
+  <div id="test6"></div>
+  <h2 style="background-color:#131313;color: tomato"> Technical Skills </h2>
+  <hr>
+  <button onclick="Python()"> Python </button> <br>
+
+  <p id="myDIV">Just basic knowledge of write code in python </p>
+
+  <script>
+    function Python() {
+      var x = document.getElementById("myDIV");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+  </script>
+
+  <button onclick="MySQL()"> SQL </button>
+
+  <p id="myDIV1">Handling of databases</p>
+
+  <script>
+    function MySQL() {
+      var x = document.getElementById("myDIV1");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+  </script>
+  <br>
+  <button onclick="ML()"> Machine Learning</button> <br>
+
+  <p id="myDIV2">Basics of regression </p>
+
+  <script>
+    function ML() {
+      var x = document.getElementById("myDIV2");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+  </script>
+  <hr>
+
+
+  <h2 style="background-color:#131313;color: tomato"> Languages </h2>
+  <hr>
+  HINDI <br>
+  ENGLISH <br>
+  PUNJABI
+  <hr>
+
+
+  <h2 style="background-color:#131313;color: tomato"> Location </h2>
+
+  <div id="map-container-google-2" class="z-depth-1-half map-container" style="height: 200px">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d111235.51466140401!2d76.8940805714465!3d29.396342892399083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390dda457afbe651%3A0x41d3f6feacaa74d4!2sPanipat%2C%20Haryana!5e0!3m2!1sen!2sin!4v1607452073882!5m2!1sen!2sin"
+      width="200" height="200" frameborder="0"
+      style="border:0;border-color:tomato;border-width: 0.4em;border-style: solid;" allowfullscreen="none"
+      aria-hidden="true" tabindex="0"></iframe>
+  </div> <br>
+  <hr>
+
+
+  <div class="row">
+    <div class=" col-xl-4 " class="card"
+      style="background-color: white;border-color:tomato;border-width: 0.7em;border-style: solid;">
+
+      <img class="card-img-top" src="OIP.jpg" alt="Card image cap" height="610px">
+
+      <div class="card-body">
+        <h5 class="card-title">Learn HTML</h5>
+        <p class="card-text">Full course on how to define the content of webpages with HTML.</p>
+        <a href="https://www.mentorif.com/">For More Details</a>
+      </div>
+    </div>
+
+    <div class=" col-xl-4 " class="card"
+      style="background-color: white;border-color:tomato;border-width: 0.7em;border-style: solid;">
+      <img class="card-img-top" src="css.jpg" alt="Card image cap " height="610px">
+      <div class="card-body">
+        <h5 class="card-title">Learn CSS</h5>
+        <p class="card-text">Full course on how to specify the layout webpages with CSS.</p>
+        <a href="https://www.mentorif.com/" >For More Details</a>
+      </div>
+    </div>
+
+
+    <div class=" col-xl-4 " class="card"
+      style="background-color: white;border-color:tomato;border-width: 0.7em;border-style: solid;">
+      <img class="card-img-top" src="java.jpg" alt="Card image cap " height="610px">
+
+      <div class="card-body">
+        <h5 class="card-title">Learn JavaScript</h5>
+        <p class="card-text">Full course on how to program the behaviour webpages with JavaScript.</p>
+        <a href="https://www.mentorif.com/" >For More Details</a>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+  </div>
+
+  <!-- NAME:-Gourav Goyal <br>
+  D.O.B.:- 21 oct,2020 <br>
+  Hometown:- Panipat <br>
+  Gender:- Male <br>
+  Nationality:- Indian <br>
+  Marital Status:- Unmarried <br> -->
+
+
+  
+
+
+
+
+</body>
+
+<script>
+  
+  class Details{
+    constructor(name, hometown, nationality){
+    this.name = name;
+    this.hometown = hometown;
+    this.nationality = nationality;
+    }
+  }
+    info = new Details("Gourav", "Panipat", "Indian");
+    document.getElementById("demodog1").innerHTML = info.name + " <br>" + info.hometown + "<br>" + info.nationality; 
+  
+// prototype
+
+function contact_details(){
+  this.phone = "7988547703"
+  this.email = "gourav786.gsv@gmail.com"
+  this.linkedin = "gouravgoyal001"
+
+};
+contact_details.prototype = function(){
+    return(this.phone, this.email, this.linkedin);
+}
+
+var Detailss = new contact_details()
+  document.getElementById("demodog2").innerHTML = "phone = " + Detailss.phone +"<br>"+ "email = " + Detailss.email +"<br>"+"linkedin = " + Detailss.linkedin;
+
+
+
+// call back
+function myDisplayer(some) {
+  return some;
+}
+
+function session(start_date,stop_date,callback) {
+  let join = start_date + " - " + stop_date;
+  return callback (join);
+}
+
+let joined = session("2019", "2023", myDisplayer);
+document.getElementById("demodog3").innerHTML = joined;
+
+
+// promise
+let x = new Promise(function(resolve, reject){
+  var y = "Experience";
+  if(y == "Experience"){
+  resolve(y);
+  }else{
+    reject(y);
+  }
+
+});
+var res = function(y){
+  //console.log(y)
+  document.getElementById("demodog4").innerHTML = y;
+}
+
+var rej = function(y){
+  console.log(y)
+}
+x.then(
+  function(y){res(y)},
+  function(y){rej(y)}
+);
+
+
+
+
+// 
+  </script>
+
+
+</html>
